@@ -44,15 +44,13 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
+import ogLogo from './assets/work_logo/og.png';
 import githubdetLogo from './assets/work_logo/github_det.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
 import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
@@ -198,6 +196,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Focusly-task manager",
+      description:
+        "Focusly is a modern task management web app that helps users organize their lives with ease. It features Google login, phone authentication via Firebase, real-time user data tracking with Firestore, and a built-in Pomodoro timer to boost productivity. Designed with a sleek, responsive UI using TailwindCSS, Focusly ensures a smooth, secure, and engaging user experience.",
+      image: ogLogo,
+      tags: ["Python", "HTML", "CSS", "Firebase", "NoSQL", "Auth2.0", "vps hosting"],
+      github: "https://github.com/shivansshhhh/focusly",
+      webapp: "https://betsito.com/",
+    },
+    {
+      id: 1,
       title: "Innovative Billing",
       description:
         "An efficient and real-time pharmacy billing system integrated with stock data and a customer-facing Android app. Users can instantly check local medicine availability, ensuring transparency and convenience in medical purchases.",
@@ -206,7 +214,7 @@ export const SkillsInfo = [
       github: "https://github.com/shivansshhhh/innovative_billing",
     },
     {
-      id: 1,
+      id: 2,
       title: "Rubik's Cube Solver",
       description:
         "An intelligent and interactive Rubik’s Cube solver that uses advanced algorithms to compute optimal solutions from any cube state. The system provides a visual interface for inputting cube colors and demonstrates step-by-step solving, making it ideal for enthusiasts and learners alike.",
@@ -215,7 +223,7 @@ export const SkillsInfo = [
       github: "https://github.com/shivansshhhh/rubik-s-cube-solver",
     },
     {
-      id: 2,
+      id: 3,
       title: "Movie App Frontend",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -225,7 +233,7 @@ export const SkillsInfo = [
       webapp: "https://movie-app-frontent.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Telegram Payment Bot",
       description:
         "A smart and secure Telegram bot built with Python to streamline pharmacy payments and customer interaction. This bot enables users to check medicine availability, pay bills instantly, and receive order updates—all within the familiar Telegram interface. Real-time integration with the backend ensures accuracy and convenience.",
@@ -234,7 +242,7 @@ export const SkillsInfo = [
       github: "https://github.com/shivansshhhh/payment-bot-stripe-crypto",
     },
     {
-      id: 4,
+      id: 5,
       title: "Task Reminder Chrome Extension Tool",
       description:
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
@@ -243,7 +251,7 @@ export const SkillsInfo = [
       github: "https://github.com/shivansshhhh/chrome-extension",
     },
     {
-      id: 5,
+      id: 6,
       title: "Cyber Tools",
       description:
         "A growing repository of custom-built cybersecurity tools designed for ethical hacking, penetration testing, and digital forensics. This ongoing project will include network scanners, brute-force utilities, reconnaissance scripts, and more — built with flexibility and real-world use in mind. New tools and features coming soon.",
